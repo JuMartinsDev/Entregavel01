@@ -1,0 +1,45 @@
+/* Estilo para o título */
+h4 {
+  color: rgb(51, 153, 151);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 300px;
+}
+
+li {
+  background-color: #f1f1f1;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+button {
+  background-color: rgb(195, 188, 190);
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: darkred;
+}
+
+p {
+  font-style: italic;
+  color: rgb(156, 56, 56);
+  margin-top: 10px;
+}

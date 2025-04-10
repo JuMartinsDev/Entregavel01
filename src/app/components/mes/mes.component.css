@@ -1,0 +1,43 @@
+
+/* Estilo para o input */
+input {
+  padding: 10px;
+  font-size: 16px;
+  width: 250px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s;
+  margin-bottom: 20px;
+}
+
+/* Efeito ao focar */
+input:focus {
+  border-color: #007bff;
+}
+
+/* Estilo para o texto exibido */
+p {
+  font-size: 18px;
+  color: #333;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+h2{
+  color: rgb(153, 54, 51);
+}
+
+h4{
+  color: rgb(152, 122, 77);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 20px;
+}
