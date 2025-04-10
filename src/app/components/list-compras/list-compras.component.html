@@ -1,0 +1,11 @@
+<h4>Exercício 03 - Lista de Compras com For</h4>
+
+<ul>
+@for (compras of listaCompras; track $index) {
+  <li>{{compras}} - {{$index}}</li>
+}@empty {
+  <p>Nenhum item na lista!</p>
+}
+</ul>
+
+<hr>
