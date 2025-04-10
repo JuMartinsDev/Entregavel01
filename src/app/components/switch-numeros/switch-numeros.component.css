@@ -1,0 +1,45 @@
+/* Estilo para o título */
+h4 {
+  color: rgb(235, 142, 36);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 20px;
+}
+  
+input {
+  padding: 10px;
+  font-size: 16px;
+  width: 250px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s;
+  margin-bottom: 10px;
+}
+
+/* Efeito ao focar */
+input:focus {
+  border-color: #007bff;
+}
+
+/* Estilo para o texto exibido */
+p {
+  font-size: 18px;
+  color: #333;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+#pendente {
+  color: goldenrod;
+  font-size: 15px;
+}
+
+#permitido {
+  color: green;
+  font-size: 15px;
+}
+
+#negado {
+  color: rgb(173, 17, 0);
+  font-size: 15px;
+}

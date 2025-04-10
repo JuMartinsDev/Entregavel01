@@ -1,1 +1,9 @@
 <h4>Exercício 07 - Lista de objetos com For - Lista de Usuários</h4>
+
+<ul>
+  @for (usuarios of listaUsuarios; track $index) {
+  <li>Nome: {{usuarios.nome}} - Idade: {{usuarios.idade}} </li>
+  }
+</ul>
+
+<hr>
