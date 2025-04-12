@@ -9,10 +9,25 @@ import { ListaUsuariosComponent } from './components/lista-usuarios/lista-usuari
 import { MesComponent } from './components/mes/mes.component';
 import { SwitchNumerosComponent } from './components/switch-numeros/switch-numeros.component';
 import { LoginComponent } from './components/login/login.component';
+import { FormsModule } from '@angular/forms';
+import { ListProdutosComponent } from './components/list-produtos/list-produtos.component';
+import { CalculadoraComponent } from './components/calculadora/calculadora.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, CommonModule, MesComponent, ListComprasComponent, AcessoComponent, ListTarefaComponent, ExibirMensagensComponent, ListaUsuariosComponent, SwitchNumerosComponent, LoginComponent],
+  imports: [RouterOutlet,
+    FormsModule ,
+    CommonModule,
+    MesComponent,
+    ListComprasComponent,
+    AcessoComponent,
+    ListTarefaComponent,
+    ExibirMensagensComponent,
+    ListaUsuariosComponent,
+    SwitchNumerosComponent,
+    LoginComponent,
+    ListProdutosComponent,
+    CalculadoraComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

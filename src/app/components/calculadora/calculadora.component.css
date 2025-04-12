@@ -1,0 +1,36 @@
+h4{
+  color: rgb(201, 46, 149);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 20px;
+}
+
+/* Centraliza tudo na tela */
+:host {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+}
+
+/* Inputs e select */
+input, select {
+  margin: 10px 0;
+  padding: 8px;
+  width: 250px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+}
+
+/* Resultado */
+.resultado {
+  font-size: 18px;
+  font-weight: bold;
+  color: #2d2d2d;
+}
+
+/* Mensagem de erro */
+.erro {
+  color: red;
+  font-weight: bold;
+}

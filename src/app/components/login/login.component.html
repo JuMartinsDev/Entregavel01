@@ -1,1 +1,9 @@
 <h4>Exercício 09 - Sistema de Login com If e Else</h4>
+
+<input type="text" [(ngModel)]="email" placeholder="Digite seu e-mail">
+<input type="password" [(ngModel)]="senha" placeholder="Digite sua senha">
+
+<button (click)="validarLogin()">Entrar</button>
+<p *ngIf="mensagem">{{mensagem}}</p>
+
+<hr>
